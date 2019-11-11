@@ -1,5 +1,4 @@
 import React from "react";
-import "../../src/Header.css";
 import { Table } from "reactstrap";
 
 const Header = () => {
