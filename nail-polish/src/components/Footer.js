@@ -3,7 +3,7 @@ import { Table } from "reactstrap";
 
 const Footer = () => {
   return (
-    <div className="container col-12 py-5 foot">
+    <div className="container col-12 py-5 fixed-bottom foot">
       <div className="row">
         <div className="col-2">
           <ul>
@@ -37,7 +37,7 @@ const Footer = () => {
             </li>
             <li>My Account</li>
             <li>My Orders</li>
-            <li>My Aliress Book</li>
+            <li>My Address Book</li>
             <li>My Reward</li>
             <li>My Wishlist</li>
             <li>Check Gift Card Balance</li>
