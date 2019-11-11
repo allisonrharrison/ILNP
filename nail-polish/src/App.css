@@ -4,7 +4,6 @@
   font-size: 12px;
   text-decoration: none;
   text-align: center;
-  color: black;
 }
 li a {
   font-size: 12px;
@@ -24,6 +23,23 @@ h1 {
   font-style: normal;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .smallText {
   font-size: 10px;
+}
+
+.foot {
+  background-color: black;
+  color: white;
+}
+
+.foot li {
+  text-align: left;
+  text-indent: 10px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  color: lightgray;
 }
