@@ -8,11 +8,11 @@ const Header = () => {
       <div className="col-4">
           <Table borderless>
             <tr>
-              <td><i class="fab fa-twitter"></i></td>
+              <td><i className="fab fa-twitter"></i></td>
               <td><i className="fab fa-facebook-f"></i></td>
-              <td><i class="fab fa-instagram"></i></td>
-              <td><i class="fab fa-youtube"></i></td>
-              <td><i class="fab fa-pinterest"></i></td>
+              <td><i className="fab fa-instagram"></i></td>
+              <td><i className="fab fa-youtube"></i></td>
+              <td><i className="fab fa-pinterest"></i></td>
               </tr>
                 </Table>
               <p className="smallText">CONNECT WITH US ON SOCIAL MEDIA</p>
