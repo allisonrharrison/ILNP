@@ -68,25 +68,25 @@ const Home = () => {
       <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
-    <div className="mt-5">
+    <div className="my-5">
       <h2>SNOWED IN COLLECTION - WINTER 2019</h2>
       </div>
-      <div className="mt-5">
+      <div className="my-5">
       <h2>MONARCHY COLLECTION - FALL 2019</h2>
       </div>
-      <div className="mt-5">
+      <div className="my-5">
       <h2>NINE TO FIVE COLLECTION - FALL 2019</h2>
       </div>
-      <div className="mt-5">
+      <div className="my-5">
       <h2>SUMMER FEELS - SUMMER 2019</h2>
       </div>
-      <div className="mt-5">
+      <div className="my-5">
       <h2>THE BOARDWALK COLLECTION - SUMMER 2019</h2>
       </div>
-      <div className="mt-5">
+      <div className="my-5">
       <h2>SUGAR LUSH - SPRING 2019</h2>
       </div>
-      <div className="mt-5">
+      <div className="my-5">
       <h2>TRANQUILITY - SPRING 2019</h2>
       </div>
     </div>
