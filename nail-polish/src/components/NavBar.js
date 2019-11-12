@@ -1,13 +1,13 @@
 import React from "react";
 import { Link, BrowserRouter as Router } from "react-router-dom";
-import { Navbar, Nav, NavItem, Form, Input, InputGroup, InputGroupAddon, Button } from "reactstrap";
+import { Navbar, Nav, NavItem, Form, Input, Button } from "reactstrap";
 
 const NavBar = () => {
   return (
     <Router>
       <div className="col-12 mx-auto">
       <Navbar expand="lg">
-        <Nav className="justify-content" navbar>
+        <Nav className="justify-content border-bottom pb-3 mb-0" navbar>
           <NavItem className="px-4 py-1">
             <Link to="./Home.js">HOME</Link>
           </NavItem>
@@ -33,6 +33,7 @@ const NavBar = () => {
             <Link to="/">GIFT CARDS</Link>
           </NavItem>
           <NavItem className="px-4 py-1">&nbsp;|&nbsp;</NavItem>
+          <NavItem className="px-4">
             <Form inline>
             <Input
               className="border-0"
@@ -45,9 +46,9 @@ const NavBar = () => {
             <i className="fas fa-search"></i>
             </Button>
           </Form>
+          </NavItem>
         </Nav>
       </Navbar>
-      <hr />
       </div>
     </Router>
   );

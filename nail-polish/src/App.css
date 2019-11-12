@@ -1,9 +1,8 @@
 * {
   font-family: "HKGroteskRegular";
-  font-style: normal;
-  font-size: 12px;
   text-decoration: none;
   text-align: center;
+  font-size: 12px;
 }
 li a {
   font-size: 12px;
@@ -20,20 +19,23 @@ li a:hover {
 h1 {
   font-family: "Bentham";
   font-weight: bold;
-  font-style: normal;
+  letter-spacing: 15px;
 }
 
 ul {
   list-style-type: none;
 }
 
-hr {
-  margin: 0;
-  padding: 0;
+.normalText {
+  font-size: 12px;
 }
 
 .smallText {
   font-size: 10px;
+}
+
+.smallerText {
+  font-size: 8px;
 }
 
 .foot {
@@ -50,5 +52,11 @@ hr {
 }
 
 #search {
-  width: 165px;
+  width: 150px;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4px;
 }
