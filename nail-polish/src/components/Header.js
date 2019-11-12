@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="container col-12 mt-3">
       <div className="row">
-      <div className="col-4">
+      <div className="col-3">
           <Table borderless>
             <tr>
               <td><i className="fab fa-twitter"></i></td>
@@ -18,7 +18,7 @@ const Header = () => {
               <p className="smallText">CONNECT WITH US ON SOCIAL MEDIA</p>
         </div>
 
-        <div className="col-4">
+        <div className="col-4 offset-1">
                 <h1>I&nbsp;L&nbsp;N&nbsp;P</h1>
               <p className="smallText">BOUTIQUE COSMETICS</p>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, BrowserRouter as Router } from "react-router-dom";
-import { Navbar, Nav, NavItem, Form, Input, Button } from "reactstrap";
+import { Navbar, Nav, NavItem, Form, Input, InputGroup, InputGroupAddon, Button } from "reactstrap";
 
 const NavBar = () => {
   return (
@@ -8,39 +8,40 @@ const NavBar = () => {
       <div className="col-12 mx-auto">
       <Navbar expand="lg">
         <Nav className="justify-content" navbar>
-          <NavItem className="p-4">
+          <NavItem className="px-4 py-1">
             <Link to="./Home.js">HOME</Link>
           </NavItem>
-          <NavItem className="p-4">
+          <NavItem className="px-4 py-1">
             <Link to="/">ALL NAIL POLISH</Link>
           </NavItem>
-          <NavItem className="p-4">
+          <NavItem className="px-4 py-1">
             <Link to="/">HOLOGRAPHICS <i class="fas fa-sort-down"></i></Link>
           </NavItem>
-          <NavItem className="p-4">
+          <NavItem className="px-4 py-1">
             <Link to="/">ULTRA CHROMES <i class="fas fa-sort-down"></i></Link>
           </NavItem>
-          <NavItem className="p-4">
+          <NavItem className="px-4 py-1">
             <Link to="/">ULTRA METALLICS <i class="fas fa-sort-down"></i></Link>
           </NavItem>
-          <NavItem className="p-4">
+          <NavItem className="px-4 py-1">
             <Link to="/">JELLIES <i class="fas fa-sort-down"></i></Link>
           </NavItem>
-          <NavItem className="p-4">
+          <NavItem className="px-4 py-1">
             <Link to="/">SHIMMERS <i class="fas fa-sort-down"></i></Link>
           </NavItem>
-          <NavItem className="p-4">
+          <NavItem className="px-4 py-1">
             <Link to="/">GIFT CARDS</Link>
           </NavItem>
-          <NavItem className="p-4">&nbsp;|&nbsp;</NavItem>
-          <Form className="form-inline">
+          <NavItem className="px-4 py-1">&nbsp;|&nbsp;</NavItem>
+            <Form inline>
             <Input
-              className="form-control border-0"
+              className="border-0"
               type="search"
               placeholder="FIND YOUR POLISH"
               aria-label="Search"
+              id="search"
             />
-            <Button className="btn btn-light p-4" type="submit">
+            <Button className="btn btn-light" type="submit">
             <i className="fas fa-search"></i>
             </Button>
           </Form>
