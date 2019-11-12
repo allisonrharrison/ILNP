@@ -1,18 +1,17 @@
 import React from "react";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Navbar, Nav, NavItem, Form, Input, Button } from "reactstrap";
 
 const NavBar = () => {
   return (
-    <Router>
       <div className="col-12 mx-auto">
       <Navbar expand="lg">
         <Nav className="justify-content border-bottom pb-3 mb-0" navbar>
           <NavItem className="px-4 py-1">
-            <Link to="./Home.js">HOME</Link>
+            <Link to="/">HOME</Link>
           </NavItem>
           <NavItem className="px-4 py-1">
-            <Link to="/">ALL NAIL POLISH</Link>
+            <Link to="/items">ALL NAIL POLISH</Link>
           </NavItem>
           <NavItem className="px-4 py-1">
             <Link to="/">HOLOGRAPHICS <i class="fas fa-sort-down"></i></Link>
@@ -50,7 +49,6 @@ const NavBar = () => {
         </Nav>
       </Navbar>
       </div>
-    </Router>
   );
 };
 
