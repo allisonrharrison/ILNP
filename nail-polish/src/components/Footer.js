@@ -54,26 +54,18 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-2 offset-1 mt-5">
-          <p className="text-center">Follow Us On:</p>
-          <Table borderless>
-            <tr>
-              <td>
-                <i className="fab fa-twitter text-light"></i>
-              </td>
-              <td>
-                <i className="fab fa-facebook-f text-light"></i>
-              </td>
-              <td>
-                <i className="fab fa-instagram text-light"></i>
-              </td>
-              <td>
-                <i className="fab fa-youtube text-light"></i>
-              </td>
-              <td>
-                <i className="fab fa-pinterest text-light"></i>
-              </td>
-            </tr>
-          </Table>
+          <div className="col">
+            <div className="row">
+              <p className="text-center">Follow Us On:</p>
+            </div>
+            <div className="row py-2">
+              <i className="fab fa-twitter text-light pr-3"></i>
+              <i className="fab fa-facebook-f text-light px-3"></i>
+              <i className="fab fa-instagram text-light px-3"></i>
+              <i className="fab fa-youtube text-light px-3"></i>
+              <i className="fab fa-pinterest text-light pl-3"></i>
+            </div>
+          </div>
         </div>
       </div>
     </div>
