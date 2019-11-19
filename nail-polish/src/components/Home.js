@@ -6,6 +6,7 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import ItemScroll from "./ItemScroll";
 
 const items = [
   {
@@ -70,24 +71,32 @@ const Home = () => {
     </Carousel>
     <div className="my-5">
       <h2>SNOWED IN COLLECTION - WINTER 2019</h2>
+      <hr />
+      <ItemScroll />
       </div>
       <div className="my-5">
       <h2>MONARCHY COLLECTION - FALL 2019</h2>
+      <hr />
       </div>
       <div className="my-5">
       <h2>NINE TO FIVE COLLECTION - FALL 2019</h2>
+      <hr />
       </div>
       <div className="my-5">
       <h2>SUMMER FEELS - SUMMER 2019</h2>
+      <hr />
       </div>
       <div className="my-5">
       <h2>THE BOARDWALK COLLECTION - SUMMER 2019</h2>
+      <hr />
       </div>
       <div className="my-5">
       <h2>SUGAR LUSH - SPRING 2019</h2>
+      <hr />
       </div>
       <div className="my-5">
       <h2>TRANQUILITY - SPRING 2019</h2>
+      <hr />
       </div>
     </div>
   );
