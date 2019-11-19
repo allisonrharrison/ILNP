@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -19,12 +20,14 @@ const Header = () => {
 
         <div className="col-4">
           <div className="col-4 offset-4">
+          <NavLink to="/" className="link">
           <div className="row">
           <h1>ILNP</h1>
           </div>
           <div className="row">
           <p className="smallText text-bold">BOUTIQUE COSMETICS</p>
           </div>
+          </NavLink>
           </div>
         </div>
 
