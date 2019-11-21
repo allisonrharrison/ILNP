@@ -12,77 +12,77 @@ const initState = {
       id: 1,
       title: "Snowed In Collection",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 62.5,
       img: "https://i.imgur.com/JoaJ1iQ.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 1,
       collection: "snowedin"
     },
     {
       id: 2,
       title: "Bundled Up",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/RPTTK4g.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 1,
       collection: "snowedin"
     },
     {
       id: 3,
       title: "Tinsel",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/9PI8uz1.jpg",
-      rating: 5,
-      reviews: 7,
+      rating: 0,
+      reviews: 0,
       collection: "snowedin"
     },
     {
       id: 4,
       title: "Greatness",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 12.5,
       img: "https://i.imgur.com/TpOutVI.jpg",
-      rating: 5,
-      reviews: 7,
+      rating: 0,
+      reviews: 0,
       collection: "snowedin"
     },
     {
       id: 5,
       title: "Christmas Cookie",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/55yynw5.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 2,
       collection: "snowedin"
     },
     {
       id: 6,
       title: "Cold As Ice",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/z8cSXUx.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 2,
       collection: "snowedin"
     },
     {
       id: 7,
       title: "Say Love",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 60.0,
       img: "https://i.imgur.com/bKcjr4O.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 4,
       collection: "snowedin"
     },
     //Monarchy Collection
@@ -90,77 +90,77 @@ const initState = {
       id: 8,
       title: "Monarchy Collection",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 60.0,
       img: "https://i.imgur.com/CPiPs0V.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 14,
       collection: "monarchy"
     },
     {
       id: 9,
       title: "Legacy",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/i8xlczk.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 21,
       collection: "monarchy"
     },
     {
       id: 10,
       title: "Empress",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/QszXGjC.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 9,
       collection: "monarchy"
     },
     {
       id: 11,
       title: "Isabella",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/f4lmsft.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 46,
       collection: "monarchy"
     },
     {
       id: 12,
       title: "Bloodline",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/BaBctfG.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 35,
       collection: "monarchy"
     },
     {
       id: 13,
       title: "Chateau",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/3PI6vow.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 42,
       collection: "monarchy"
     },
     {
       id: 14,
       title: "Vanity",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.",
+        "",
       price: 10.0,
       img: "https://i.imgur.com/uwVH2X5.jpg",
       rating: 5,
-      reviews: 7,
+      reviews: 47,
       collection: "monarchy"
     },
     //Gift Cards
@@ -181,8 +181,89 @@ const initState = {
       price: 10.0,
       img: "https://i.imgur.com/phhBviy.png",
       rating: 5,
-      reviews: 35,
+      reviews: 19,
       collection: "giftcard"
+    },
+    //Nine to Five Collection
+    {
+      id: 17,
+      title: "Nine to Five Collection",
+      desc: "",
+      price: 70.0,
+      img: "https://i.imgur.com/G9sxUNj.jpg",
+      rating: 5,
+      reviews: 25,
+      collection: "ninetofive"
+    },
+    {
+      id: 18,
+      title: "Overcoat",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/ZpnmMN9.jpg",
+      rating: 5,
+      reviews: 12,
+      collection: "ninetofive"
+    },
+    {
+      id: 19,
+      title: "ASAP",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/L5cEVGb.jpg",
+      rating: 5,
+      reviews: 29,
+      collection: "ninetofive"
+    },
+    {
+      id: 20,
+      title: "Coffee Run",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/q2mgW5d.jpg",
+      rating: 5,
+      reviews: 56,
+      collection: "ninetofive"
+    },
+    {
+      id: 21,
+      title: "Portfolio",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/zBxSuyR.jpg",
+      rating: 5,
+      reviews: 15,
+      collection: "ninetofive"
+    },
+    {
+      id: 22,
+      title: "Rumor Has It",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/50b1Psz.jpg",
+      rating: 5,
+      reviews: 19,
+      collection: "ninetofive"
+    },
+    {
+      id: 23,
+      title: "CEO",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/whvMKSr.jpg",
+      rating: 5,
+      reviews: 23,
+      collection: "ninetofive"
+    },
+    {
+      id: 24,
+      title: "Internship",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/hc2iOwL.jpg",
+      rating: 5,
+      reviews: 48,
+      collection: "ninetofive"
     }
   ],
   addedItems: [],
