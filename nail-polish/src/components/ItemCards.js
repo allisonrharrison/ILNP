@@ -13,6 +13,7 @@ import { addToCart } from "./actions/cartActions";
 
 class ItemCards extends Component {
   polish = this.props.items.filter(item=>item.collection != 'giftcard');
+  alpha = this.polish.sort((a, b) => (a.title > b.title) ? 1 : -1)
   snowedin = this.props.items.filter(item=>item.collection ==='snowedin');
   monarchy = this.props.items.filter(item=>item.collection ==='monarchy');
   giftcards = this.props.items.filter(item=>item.collection ==='giftcard');
@@ -25,7 +26,7 @@ class ItemCards extends Component {
   render() {
 
     return (
-    this.polish.map(item => {
+    this.alpha.map(item => {
       return (
         <div className="col-3 my-3 mx-0">
           <Card style={{ border: 'none', width: '225px' }} key={item.id}>
