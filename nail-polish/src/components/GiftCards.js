@@ -51,10 +51,10 @@ class GiftCards extends Component {
             <BreadcrumbItem>
               <Link to="/">Home</Link>
             </BreadcrumbItem>
-            <BreadcrumbItem active>ALL ILNP NAIL POLISH</BreadcrumbItem>
+            <BreadcrumbItem active>GIFT CARDS</BreadcrumbItem>
           </Breadcrumb>
         </div>
-        <h3 className="center">ALL ILNP NAIL POLISH</h3>
+        <h3 className="center">GIFT CARDS</h3>
         <div className="row">
           {giftcards}
         </div>
