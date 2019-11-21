@@ -59,28 +59,28 @@ const Footer = () => {
             </div>
             <div className="row py-2">
               <a className="text-light" href="https://twitter.com/ilnpbrand">
-                <i className="fab fa-twitter p-3"></i>
+                <i className="fab fa-twitter fa-lg p-2"></i>
               </a>
               <a
                 className="text-light"
                 href="https://www.facebook.com/ilnpbrand"
               >
-                <i className="fab fa-facebook-f p-3"></i>
+                <i className="fab fa-facebook-f fa-lg p-2"></i>
               </a>
               <a className="text-light" href="https://www.instagram.com/ilnp/">
-                <i className="fab fa-instagram p-3"></i>
+                <i className="fab fa-instagram fa-lg p-2"></i>
               </a>
               <a
                 className="text-light"
                 href="https://www.youtube.com/user/ilnpbrand"
               >
-                <i className="fab fa-youtube p-3"></i>
+                <i className="fab fa-youtube fa-lg p-2"></i>
               </a>
               <a
                 className="text-light"
                 href="https://www.pinterest.com/ilnpbrand/"
               >
-                <i className="fab fa-pinterest p-3"></i>
+                <i className="fab fa-pinterest fa-lg p-2"></i>
               </a>
             </div>
           </div>
