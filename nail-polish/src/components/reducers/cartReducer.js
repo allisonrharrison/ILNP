@@ -11,8 +11,7 @@ const initState = {
     {
       id: 1,
       title: "Snowed In Collection",
-      desc:
-        "",
+      desc: "",
       price: 62.5,
       img: "https://i.imgur.com/JoaJ1iQ.jpg",
       rating: 5,
@@ -22,8 +21,7 @@ const initState = {
     {
       id: 2,
       title: "Bundled Up",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/RPTTK4g.jpg",
       rating: 5,
@@ -33,8 +31,7 @@ const initState = {
     {
       id: 3,
       title: "Tinsel",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/9PI8uz1.jpg",
       rating: 0,
@@ -44,8 +41,7 @@ const initState = {
     {
       id: 4,
       title: "Greatness",
-      desc:
-        "",
+      desc: "",
       price: 12.5,
       img: "https://i.imgur.com/TpOutVI.jpg",
       rating: 0,
@@ -55,8 +51,7 @@ const initState = {
     {
       id: 5,
       title: "Christmas Cookie",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/55yynw5.jpg",
       rating: 5,
@@ -66,8 +61,7 @@ const initState = {
     {
       id: 6,
       title: "Cold As Ice",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/z8cSXUx.jpg",
       rating: 5,
@@ -77,8 +71,7 @@ const initState = {
     {
       id: 7,
       title: "Say Love",
-      desc:
-        "",
+      desc: "",
       price: 60.0,
       img: "https://i.imgur.com/bKcjr4O.jpg",
       rating: 5,
@@ -89,8 +82,7 @@ const initState = {
     {
       id: 8,
       title: "Monarchy Collection",
-      desc:
-        "",
+      desc: "",
       price: 60.0,
       img: "https://i.imgur.com/CPiPs0V.jpg",
       rating: 5,
@@ -100,8 +92,7 @@ const initState = {
     {
       id: 9,
       title: "Legacy",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/i8xlczk.jpg",
       rating: 5,
@@ -111,8 +102,7 @@ const initState = {
     {
       id: 10,
       title: "Empress",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/QszXGjC.jpg",
       rating: 5,
@@ -122,8 +112,7 @@ const initState = {
     {
       id: 11,
       title: "Isabella",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/f4lmsft.jpg",
       rating: 5,
@@ -133,8 +122,7 @@ const initState = {
     {
       id: 12,
       title: "Bloodline",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/BaBctfG.jpg",
       rating: 5,
@@ -144,8 +132,7 @@ const initState = {
     {
       id: 13,
       title: "Chateau",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/3PI6vow.jpg",
       rating: 5,
@@ -155,8 +142,7 @@ const initState = {
     {
       id: 14,
       title: "Vanity",
-      desc:
-        "",
+      desc: "",
       price: 10.0,
       img: "https://i.imgur.com/uwVH2X5.jpg",
       rating: 5,
@@ -264,6 +250,77 @@ const initState = {
       rating: 5,
       reviews: 48,
       collection: "ninetofive"
+    },
+    //Summer Feels Collection
+    {
+      id: 25,
+      title: "Summer Feels Collection",
+      desc: "",
+      price: 67.5,
+      img: "https://i.imgur.com/6WWho9i.jpg",
+      rating: 5,
+      reviews: 26,
+      collection: "summerfeels"
+    },
+    {
+      id: 26,
+      title: "Summer Lovin'",
+      desc: "",
+      price: 12.5,
+      img: "https://i.imgur.com/gecyOsw.jpg",
+      rating: 5,
+      reviews: 80,
+      collection: "summerfeels"
+    },
+    {
+      id: 27,
+      title: "On Repeat",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/A7q7vHW.jpg",
+      rating: 5,
+      reviews: 38,
+      collection: "summerfeels"
+    },
+    {
+      id: 28,
+      title: "Heat Wave",
+      desc: "",
+      price: 12.5,
+      img: "https://i.imgur.com/dFOrb9v.jpg",
+      rating: 5,
+      reviews: 48,
+      collection: "summerfeels"
+    },
+    {
+      id: 29,
+      title: "Talk It Up",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/4zqlvAW.jpg",
+      rating: 5,
+      reviews: 57,
+      collection: "summerfeels"
+    },
+    {
+      id: 30,
+      title: "Morning Rays",
+      desc: "",
+      price: 12.5,
+      img: "https://i.imgur.com/tbJtD2P.jpg",
+      rating: 5,
+      reviews: 45,
+      collection: "summerfeels"
+    },
+    {
+      id: 31,
+      title: "Freefall",
+      desc: "",
+      price: 10.0,
+      img: "https://i.imgur.com/BRgSqAJ.jpg",
+      rating: 5,
+      reviews: 35,
+      collection: "summerfeels"
     }
   ],
   addedItems: [],
