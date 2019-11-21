@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -7,11 +7,11 @@ const Header = () => {
       <div className="row">
         <div className="col-3 offset-1">
           <div className="row">
-            <i className="fab fa-twitter p-3"></i>
-            <i className="fab fa-facebook-f p-3"></i>
-            <i className="fab fa-instagram p-3"></i>
-            <i className="fab fa-youtube p-3"></i>
-            <i className="fab fa-pinterest p-3"></i>
+            <a className="link" href="https://twitter.com/ilnpbrand"><i className="fab fa-twitter p-3"></i></a>
+            <a className="link" href="https://www.facebook.com/ilnpbrand"><i className="fab fa-facebook-f p-3"></i></a>
+            <a className="link" href="https://www.instagram.com/ilnp/"><i className="fab fa-instagram p-3"></i></a>
+            <a className="link" href="https://www.youtube.com/user/ilnpbrand"><i className="fab fa-youtube p-3"></i></a>
+            <a className="link" href="https://www.pinterest.com/ilnpbrand/"><i className="fab fa-pinterest p-3"></i></a>
           </div>
           <div className="row py-2">
             <p className="smallText">CONNECT WITH US ON SOCIAL MEDIA</p>
