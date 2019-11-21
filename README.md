@@ -1,6 +1,9 @@
 # ILNP
 Great nail polish, bad user experience. Can I do it better?
 
+##### Wednesday, November 20th
+I've officially completed my React course! Let's continue putting my skills to the test with this project. I added two nail polish collections (Snowed In, Monarchy) plus gift cards to the store, then separated them into their own pages. Going to add a few more collections, then attempt to render everything on the Home page using react-horizontal-scrolling-menu. 
+
 ##### Monday, November 11th
 The foundation is set! Header, NavBar, Body, and Footer are all in place and looking acceptable for now. Entering Phase Two: implementing Redux and adding products. 
 
