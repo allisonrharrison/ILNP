@@ -29,7 +29,7 @@ const NavBar = () => {
             <Link to="/">SHIMMERS <i class="fas fa-sort-down"></i></Link>
           </NavItem>
           <NavItem className="px-4 py-1">
-            <Link to="/">GIFT CARDS</Link>
+            <Link to="/giftcards">GIFT CARDS</Link>
           </NavItem>
           <NavItem className="px-4 py-1">&nbsp;|&nbsp;</NavItem>
           <NavItem className="px-4">

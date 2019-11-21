@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Items from "./components/Items";
+import GiftCards from "./components/GiftCards";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/items">
             <Items />
+          </Route>
+          <Route path="/giftcards">
+            <GiftCards />
           </Route>
         </Switch>
         <Footer />
