@@ -18,19 +18,19 @@ const Header = props => {
         <div className="col-3 offset-1">
           <div className="row">
             <a className="link" href="https://twitter.com/ilnpbrand">
-              <i className="fab fa-twitter p-3"></i>
+              <i className="fab fa-twitter fa-lg p-3"></i>
             </a>
             <a className="link" href="https://www.facebook.com/ilnpbrand">
-              <i className="fab fa-facebook-f p-3"></i>
+              <i className="fab fa-facebook-f fa-lg p-3"></i>
             </a>
             <a className="link" href="https://www.instagram.com/ilnp/">
-              <i className="fab fa-instagram p-3"></i>
+              <i className="fab fa-instagram fa-lg p-3"></i>
             </a>
             <a className="link" href="https://www.youtube.com/user/ilnpbrand">
-              <i className="fab fa-youtube p-3"></i>
+              <i className="fab fa-youtube fa-lg p-3"></i>
             </a>
             <a className="link" href="https://www.pinterest.com/ilnpbrand/">
-              <i className="fab fa-pinterest p-3"></i>
+              <i className="fab fa-pinterest fa-lg p-3"></i>
             </a>
           </div>
           <div className="row py-2">
@@ -55,7 +55,7 @@ const Header = props => {
           <div className="row">
             <div className="col-3">
               <div className="row">
-                <i className="fas fa-balance-scale-left p-3"></i>
+                <i className="fas fa-balance-scale-left fa-lg p-3"></i>
               </div>
               <div className="row">
                 <p className="smallText py-2">COMPARE</p>
@@ -64,7 +64,7 @@ const Header = props => {
 
             <div className="col-3">
               <div className="row">
-                <i className="fas fa-shopping-cart p-3"></i>
+                <i className="fas fa-shopping-cart fa-lg p-3"></i>
               </div>
               <div className="row">
                 <p className="smallText py-2">MY CART</p>
@@ -72,10 +72,10 @@ const Header = props => {
             </div>
 
             <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-              <DropdownToggle tag="div">
+              <DropdownToggle tag="button" style={{background: 'none', border: 'none'}}>
                 <div>
                   <div className="row">
-                    &nbsp;<i className="fas fa-user-circle p-3"></i>
+                    &nbsp;<i className="fas fa-user-circle fa-lg p-3"></i>
                   </div>
                   <div className="row">
                     <p className="smallText py-2 text-left">
