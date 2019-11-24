@@ -4,7 +4,8 @@ import {
   Card,
   CardImg,
   CardTitle,
-  CardBody
+  CardBody,
+  Fade
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
@@ -31,21 +32,8 @@ class ItemCards extends Component {
         <div className="col-3 my-3 mx-0">
           <Card style={{ border: 'none', width: '225px' }} key={item.id}>
             <CardImg
-              src={item.img}
-              alt={item.title}
-            />
-            {
-              <span
-                to="/"
-                className="btn-floating halfway-fab waves-effect waves-light red"
-                onClick={() => {
-                  this.handleClick(item.id);
-                }}
-              >
-                <i className="material-icons">add</i>
-              </span>
-            }
-
+            src={item.img}
+          />
             <CardBody>
               <CardTitle>
                 <h5>{item.title}</h5>
@@ -55,6 +43,24 @@ class ItemCards extends Component {
                 Reviews
               </p>
               <p>${item.price}</p>
+              <span
+                to="/"
+                className="btn-dark btn-sm align-self-center"
+                onClick={() => {
+                  this.handleClick(item.id);
+                }}
+              >
+                ADD TO CART
+              </span>
+              <p
+                to="/"
+                className="mt-3"
+                onClick={() => {
+                  this.handleClick(item.id);
+                }}
+              >
+                <i className="fas fa-balance-scale-left"></i> COMPARE | <i className="fas fa-heart fa-sm"></i> WISHLIST
+              </p>
             </CardBody>
           </Card>
         </div>
