@@ -2,7 +2,7 @@ import {
   ADD_TO_CART,
   REMOVE_ITEM,
   SUB_QUANTITY,
-  ADD_QUANTITY
+  ADD_QUANTITY,
 } from "../actions/action-types/cart-actions";
 
 const initState = {
@@ -14,6 +14,7 @@ const initState = {
       desc: "",
       price: 62.5,
       img: "https://i.imgur.com/JoaJ1iQ.jpg",
+      hover: "https://i.imgur.com/Idjd6X3.jpg",
       rating: 5,
       reviews: 1,
       collection: "snowedin"
@@ -24,6 +25,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/RPTTK4g.jpg",
+      hover: "https://i.imgur.com/CHGe7Zd.jpg",
       rating: 5,
       reviews: 1,
       collection: "snowedin"
@@ -34,6 +36,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/9PI8uz1.jpg",
+      hover: "https://i.imgur.com/yXhBG9F.jpg",
       rating: 0,
       reviews: 0,
       collection: "snowedin"
@@ -44,6 +47,7 @@ const initState = {
       desc: "",
       price: 12.5,
       img: "https://i.imgur.com/TpOutVI.jpg",
+      hover: "https://i.imgur.com/kIE9R3m.jpg",
       rating: 0,
       reviews: 0,
       collection: "snowedin"
@@ -54,6 +58,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/55yynw5.jpg",
+      hover: "https://i.imgur.com/D2zphFO.jpg",
       rating: 5,
       reviews: 2,
       collection: "snowedin"
@@ -64,6 +69,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/z8cSXUx.jpg",
+      hover: "https://i.imgur.com/EvLiLkz.jpg",
       rating: 5,
       reviews: 2,
       collection: "snowedin"
@@ -74,6 +80,7 @@ const initState = {
       desc: "",
       price: 60.0,
       img: "https://i.imgur.com/bKcjr4O.jpg",
+      hover: "https://i.imgur.com/bKcjr4O.jpg",
       rating: 5,
       reviews: 4,
       collection: "snowedin"
@@ -85,6 +92,7 @@ const initState = {
       desc: "",
       price: 60.0,
       img: "https://i.imgur.com/CPiPs0V.jpg",
+      hover: "https://i.imgur.com/LcXAKyL.jpg",
       rating: 5,
       reviews: 14,
       collection: "monarchy"
@@ -95,6 +103,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/i8xlczk.jpg",
+      hover: "https://i.imgur.com/i8xlczk.jpg",
       rating: 5,
       reviews: 21,
       collection: "monarchy"
@@ -105,6 +114,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/QszXGjC.jpg",
+      hover: "https://i.imgur.com/t0PJxNp.jpg",
       rating: 5,
       reviews: 9,
       collection: "monarchy"
@@ -115,6 +125,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/f4lmsft.jpg",
+      hover: "https://i.imgur.com/8LX1YIz.jpg",
       rating: 5,
       reviews: 46,
       collection: "monarchy"
@@ -125,6 +136,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/BaBctfG.jpg",
+      hover: "https://i.imgur.com/2u6vPJE.jpg",
       rating: 5,
       reviews: 35,
       collection: "monarchy"
@@ -135,6 +147,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/3PI6vow.jpg",
+      hover: "https://i.imgur.com/QxfAcxB.jpg",
       rating: 5,
       reviews: 42,
       collection: "monarchy"
@@ -145,6 +158,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/uwVH2X5.jpg",
+      hover: "https://i.imgur.com/BctrBal.jpg",
       rating: 5,
       reviews: 47,
       collection: "monarchy"
@@ -177,6 +191,7 @@ const initState = {
       desc: "",
       price: 70.0,
       img: "https://i.imgur.com/G9sxUNj.jpg",
+      hover: "https://i.imgur.com/N6YmJ9g.jpg",
       rating: 5,
       reviews: 25,
       collection: "ninetofive"
@@ -187,6 +202,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/ZpnmMN9.jpg",
+      hover: "https://i.imgur.com/p9tnquq.jpg",
       rating: 5,
       reviews: 12,
       collection: "ninetofive"
@@ -197,6 +213,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/L5cEVGb.jpg",
+      hover: "https://i.imgur.com/lKhzgOz.jpg",
       rating: 5,
       reviews: 29,
       collection: "ninetofive"
@@ -207,6 +224,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/q2mgW5d.jpg",
+      hover: "https://i.imgur.com/kdxXGcM.jpg",
       rating: 5,
       reviews: 56,
       collection: "ninetofive"
@@ -217,6 +235,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/zBxSuyR.jpg",
+      hover: "https://i.imgur.com/Q9ncRQL.jpg",
       rating: 5,
       reviews: 15,
       collection: "ninetofive"
@@ -227,6 +246,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/50b1Psz.jpg",
+      hover: "https://i.imgur.com/aelcsHK.jpg",
       rating: 5,
       reviews: 19,
       collection: "ninetofive"
@@ -237,6 +257,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/whvMKSr.jpg",
+      hover: "https://i.imgur.com/AD5IE3a.jpg",
       rating: 5,
       reviews: 23,
       collection: "ninetofive"
@@ -247,6 +268,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/hc2iOwL.jpg",
+      hover: "https://i.imgur.com/LNXFW3S.jpg",
       rating: 5,
       reviews: 48,
       collection: "ninetofive"
@@ -258,6 +280,7 @@ const initState = {
       desc: "",
       price: 67.5,
       img: "https://i.imgur.com/6WWho9i.jpg",
+      hover: "https://i.imgur.com/ZZQnbqH.jpg",
       rating: 5,
       reviews: 26,
       collection: "summerfeels"
@@ -268,6 +291,7 @@ const initState = {
       desc: "",
       price: 12.5,
       img: "https://i.imgur.com/gecyOsw.jpg",
+      hover: "https://i.imgur.com/nu3kXwz.jpg",
       rating: 5,
       reviews: 80,
       collection: "summerfeels"
@@ -278,6 +302,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/A7q7vHW.jpg",
+      hover: "https://i.imgur.com/ZuCbJsD.jpg",
       rating: 5,
       reviews: 38,
       collection: "summerfeels"
@@ -288,6 +313,7 @@ const initState = {
       desc: "",
       price: 12.5,
       img: "https://i.imgur.com/dFOrb9v.jpg",
+      hover: "https://i.imgur.com/aFEXkA3.jpg",
       rating: 5,
       reviews: 48,
       collection: "summerfeels"
@@ -298,6 +324,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/4zqlvAW.jpg",
+      hover: "https://i.imgur.com/eiaLm9M.jpg",
       rating: 5,
       reviews: 57,
       collection: "summerfeels"
@@ -308,6 +335,7 @@ const initState = {
       desc: "",
       price: 12.5,
       img: "https://i.imgur.com/tbJtD2P.jpg",
+      hover: "https://i.imgur.com/aFEXkA3.jpg",
       rating: 5,
       reviews: 45,
       collection: "summerfeels"
@@ -318,6 +346,7 @@ const initState = {
       desc: "",
       price: 10.0,
       img: "https://i.imgur.com/BRgSqAJ.jpg",
+      hover: "https://i.imgur.com/DtGXYUx.jpg",
       rating: 5,
       reviews: 35,
       collection: "summerfeels"
@@ -395,6 +424,7 @@ const cartReducer = (state = initState, action) => {
       };
     }
   }
+
   return state;
 };
 
