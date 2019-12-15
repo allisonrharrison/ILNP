@@ -1,6 +1,10 @@
 # ILNP
 Great nail polish, bad user experience. Can I do it better?
 
+
+##### Saturday, December 14th
+It's been about one month since I've done any major updates to this project. I've been focused on getting through my React Native course... but as graduation approaches, so does the deadline for releasing v1.0. Looking at my code, I get the same feeling as you would upon discovering that your entire house needs an electrical re-wiring. I see now that it was a mistake to build the visual elements around the functionality, instead of the other way around. To put this project in a releasable/presentable state, I'm going to have to take a few steps back. Entering Phase Negative One: re-working the foundation!
+
 ##### Wednesday, November 20th
 I've officially completed my React course! Let's continue putting my skills to the test with this project. I added two nail polish collections (Snowed In, Monarchy) plus gift cards to the store, then separated them into their own pages. Going to add a few more collections, then attempt to render everything on the Home page using react-horizontal-scrolling-menu. 
 
