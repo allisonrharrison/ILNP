@@ -1,6 +1,8 @@
 # ILNP
 Great nail polish, bad user experience. Can I do it better?
 
+##### Tuesday, December 24th
+Merry Christmas Eve -- Phase Negative One is complete! I completely reworked the foundation: fixed store, mapped components, cleaned up/organized files, and more. I am much more pleased with the current state of this project, so I think it is time to finally start working on more functional aspects of the site, such as Cart and Sort.
 
 ##### Saturday, December 14th
 It's been about one month since I've done any major updates to this project. I've been focused on getting through my React Native course... but as graduation approaches, so does the deadline for releasing v1.0. Looking at my code, I get the same feeling as you would upon discovering that your entire house needs an electrical re-wiring. I see now that it was a mistake to build the visual elements around the functionality, instead of the other way around. To put this project in a releasable/presentable state, I'm going to have to take a few steps back. Entering Phase Negative One: re-working the foundation!
