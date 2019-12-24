@@ -72,7 +72,7 @@ const Header = props => {
             </div>
 
             <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-              <DropdownToggle tag="button" style={{background: 'none', border: 'none'}}>
+              <DropdownToggle tag="div" id="account">
                 <div>
                   <div className="row">
                     &nbsp;<i className="fas fa-user-circle fa-lg p-3"></i>

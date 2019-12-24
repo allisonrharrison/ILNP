@@ -61,10 +61,6 @@ ul {
   color: lightgray;
 }
 
-#search {
-  width: 150px;
-}
-
 h2 {
   font-weight: bold;
   text-align: center;
@@ -89,4 +85,17 @@ h2 {
 
 .scroll-menu-arrow--disabled {
   visibility: hidden;
+}
+
+#account:hover {
+  cursor: pointer;
+}
+
+i:hover {
+  color: rgb(73, 73, 73);
+}
+
+.cardHover:hover {
+  box-shadow: 8px 8px 8px lightgray;
+  cursor: pointer;
 }

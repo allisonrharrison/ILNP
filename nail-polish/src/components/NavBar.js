@@ -4,37 +4,38 @@ import { Navbar, Nav, NavItem, Form, Input, Button } from "reactstrap";
 
 const NavBar = () => {
   return (
-    <div className="col-12 mx-auto">
+    <div className="container col-12">
+      <div className="row ml-1">
       <Navbar expand="lg">
         <Nav className="justify-content border-bottom pb-3 mb-0" navbar>
-          <NavItem className="px-4 py-1">
+          <NavItem className="pr-4 py-1">
             <Link to="/">HOME</Link>
           </NavItem>
-          <NavItem className="px-3 py-1">
-            <Link to="/items">ALL NAIL POLISH</Link>
+          <NavItem className="px-4 py-1">
+            <Link to="/allpolish">ALL NAIL POLISH</Link>
           </NavItem>
-          <NavItem className="px-3 py-1">
-            <Link to="/">
+          <NavItem className="px-4 py-1">
+            <Link to="/holographics">
               HOLOGRAPHICS <i className="fas fa-chevron-down fa-xs fa-fw"></i>
             </Link>
           </NavItem>
           <NavItem className="px-4 py-1">
-            <Link to="/">
+            <Link to="/ultrachromes">
               ULTRA CHROMES <i className="fas fa-chevron-down fa-xs fa-fw"></i>
             </Link>
           </NavItem>
           <NavItem className="px-4 py-1">
-            <Link to="/">
+            <Link to="/ultrametallics">
               ULTRA METALLICS <i className="fas fa-chevron-down fa-xs fa-fw"></i>
             </Link>
           </NavItem>
           <NavItem className="px-4 py-1">
-            <Link to="/">
+            <Link to="/jellies">
               JELLIES <i className="fas fa-chevron-down fa-xs fa-fw"></i>
             </Link>
           </NavItem>
           <NavItem className="px-4 py-1">
-            <Link to="/">
+            <Link to="/shimmers">
               SHIMMERS &nbsp;<i className="fas fa-chevron-down fa-xs"></i>
             </Link>
           </NavItem>
@@ -42,7 +43,7 @@ const NavBar = () => {
             <Link to="/giftcards">GIFT CARDS</Link>
           </NavItem>
           <NavItem className="px-4 py-1">&nbsp;|&nbsp;</NavItem>
-          <NavItem className="px-4">
+          <NavItem className="pl-4">
             <Form inline>
               <Input
                 className="border-0"
@@ -58,6 +59,7 @@ const NavBar = () => {
           </NavItem>
         </Nav>
       </Navbar>
+      </div>
     </div>
   );
 };

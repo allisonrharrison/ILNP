@@ -3,7 +3,21 @@ import { Button, Breadcrumb,
   BreadcrumbItem, Card, CardImg, CardTitle, CardBody } from "reactstrap";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import { addToCart } from "./actions/cartActions";
+import { addToCart } from "../redux/ActionCreators";
+import Sort from './Sort';
+
+const mapStateToProps = state => {
+  return {
+    giftcards: state.giftcards
+  };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    addToCart: id => {
+      dispatch(addToCart(id));
+    }
+  };
+};
 
 class GiftCards extends Component {
   handleClick = id => {
@@ -11,9 +25,7 @@ class GiftCards extends Component {
   };
 
   render() {
-    let giftcards = this.props.items.filter(
-      item => item.collection === "giftcard"
-    ).map(item => {
+    let giftcards = this.props.giftcards.map(item => {
       return (
         <div className="col-3 my-3 mx-0">
           <Card style={{ border: "none", width: "225px" }} key={item.id}>
@@ -35,7 +47,11 @@ class GiftCards extends Component {
                 <h5>{item.title}</h5>
               </CardTitle>
               <p>
-                <i className="fas fa-heart"></i> {item.rating}&nbsp;|&nbsp;
+              <i className="fas fa-heart fa-sm"></i>
+                <i className="fas fa-heart fa-sm"></i>
+                <i className="fas fa-heart fa-sm"></i>
+                <i className="fas fa-heart fa-sm"></i>
+                <i className="fas fa-heart fa-sm"></i>&nbsp;|&nbsp;
                 {item.reviews} Reviews
               </p>
               <p>${item.price}</p>
@@ -55,25 +71,15 @@ class GiftCards extends Component {
           </Breadcrumb>
         </div>
         <h3 className="center">GIFT CARDS</h3>
+        <div className="col">
+        <Sort />
         <div className="row">
           {giftcards}
+        </div>
         </div>
       </div>
     );
   }
 }
-
-const mapStateToProps = state => {
-  return {
-    items: state.items
-  };
-};
-const mapDispatchToProps = dispatch => {
-  return {
-    addToCart: id => {
-      dispatch(addToCart(id));
-    }
-  };
-};
 
 export default connect(mapStateToProps, mapDispatchToProps)(GiftCards);

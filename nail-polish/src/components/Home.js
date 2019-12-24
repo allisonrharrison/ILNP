@@ -51,7 +51,7 @@ const Home = () => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img src={item.src} alt={item.altText} className="col-12"/>
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
@@ -72,7 +72,7 @@ const Home = () => {
     <div className="my-5">
       <h2>SNOWED IN COLLECTION - WINTER 2019</h2>
       <hr />
-      <ItemScroll />
+      
       </div>
       <div className="my-5">
       <h2>MONARCHY COLLECTION - FALL 2019</h2>

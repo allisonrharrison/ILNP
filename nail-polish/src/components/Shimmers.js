@@ -19,7 +19,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-const AllPolish = props => {
+const Shimmers = props => {
     return (
       <div className="container">
       <div id="breadcrumb">
@@ -27,31 +27,31 @@ const AllPolish = props => {
           <BreadcrumbItem>
             <Link to="/">Home</Link>
           </BreadcrumbItem>
-          <BreadcrumbItem active>ALL ILNP NAIL POLISH</BreadcrumbItem>
+          <BreadcrumbItem active>SHIMMERS</BreadcrumbItem>
         </Breadcrumb>
       </div>
-      <h3 className="center">ALL ILNP NAIL POLISH</h3>
+      <h3 className="center">SHIMMERS</h3>
       <div className="col">
         <Sort />
         <div className="row">
-          <AllCards polish={props.polish}/>
+          <ShimmerCards polish={props.polish}/>
         </div>
       </div>
     </div>
     );
   }
 
-class AllCards extends Component {
+class ShimmerCards extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    const sortAlpha = this.props.polish.sort((a, b) =>
-      a.title > b.title ? 1 : -1
+    const filtShim = this.props.polish.filter((p) =>
+      p.shimmer === true
     );
 
-    return sortAlpha.map(item => {
+    return filtShim.map(item => {
       return (
         <div className="col-2 px-0 m-4 cardHover">
           <Card
@@ -86,4 +86,4 @@ class AllCards extends Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(AllPolish);
+export default connect(mapStateToProps, mapDispatchToProps)(Shimmers);

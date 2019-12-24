@@ -19,7 +19,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-const AllPolish = props => {
+const Holographics = props => {
     return (
       <div className="container">
       <div id="breadcrumb">
@@ -27,32 +27,30 @@ const AllPolish = props => {
           <BreadcrumbItem>
             <Link to="/">Home</Link>
           </BreadcrumbItem>
-          <BreadcrumbItem active>ALL ILNP NAIL POLISH</BreadcrumbItem>
+          <BreadcrumbItem active>HOLOGRAPHICS</BreadcrumbItem>
         </Breadcrumb>
       </div>
-      <h3 className="center">ALL ILNP NAIL POLISH</h3>
+      <h3 className="center">HOLOGRAPHICS</h3>
       <div className="col">
         <Sort />
         <div className="row">
-          <AllCards polish={props.polish}/>
+          <HoloCards polish={props.polish}/>
         </div>
       </div>
     </div>
     );
   }
 
-class AllCards extends Component {
-  constructor(props) {
-    super(props);
-  }
+  class HoloCards extends Component {
+    constructor(props) {
+      super(props);
+    }
 
-  render() {
-    const sortAlpha = this.props.polish.sort((a, b) =>
-      a.title > b.title ? 1 : -1
-    );
+    render() {
+      const filtHolo = this.props.polish.filter((p) => p.holographic == true);
 
-    return sortAlpha.map(item => {
-      return (
+    return filtHolo.map(item => {
+        return (
         <div className="col-2 px-0 m-4 cardHover">
           <Card
             key={item.id}
@@ -86,4 +84,4 @@ class AllCards extends Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(AllPolish);
+export default connect(mapStateToProps, mapDispatchToProps)(Holographics);

@@ -1,34 +1,41 @@
-import React, { Component } from "react";
+/*import React, { Component } from "react";
+import {
+  Card,
+  CardImg,
+  CardTitle,
+  CardBody,
+} from "reactstrap";
+import { connect } from "react-redux";
 import ScrollMenu from "react-horizontal-scrolling-menu";
 import "../App.css";
+import { addToCart } from "../redux/ActionCreators";
 
-const list = [
-  { name: "item1" },
-  { name: "item2" },
-  { name: "item3" },
-  { name: "item4" },
-  { name: "item5" },
-  { name: "item6" },
-  { name: "item7" },
-  { name: "item8" },
-  { name: "item9" },
-  { name: "item10" },
-  { name: "item11" },
-  { name: "item12" },
-  { name: "item13" },
-  { name: "item14" },
-  { name: "item15" }
-];
-
-const MenuItem = ({ text, selected }) => {
-  return <div className={`menu-item ${selected ? "active" : ""}`}>{text}</div>;
+const mapStateToProps = state => {
+  return {
+    polish: state.polish,
+    giftcards: state.giftcards
+  };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    addToCart: id => {
+      dispatch(addToCart(id));
+    }
+  };
 };
 
-export const Menu = (list, selected) =>
-  list.map(el => {
-    const { name } = el;
+const MenuItem = ({ img, title, selected }) => {
+  return (
+  <Card className={`menu-item ${selected ? "active" : ""}`}>
+    <CardImg style={{width: "200px"}}src={img}></CardImg>
+    <CardTitle>{title}</CardTitle>
+    </Card>);
+};
 
-    return <MenuItem text={name} key={name} selected={selected} />;
+export const Menu = (polish, selected) =>
+  this.props.polish.map(el => {
+
+    return <MenuItem text={this.props.polish.name} key={this.props.polish.id} selected={selected} />;
   });
 
 const Arrow = ({ icon, className }) => {
@@ -45,7 +52,7 @@ class ItemScroll extends Component {
     dragging: true,
     hideArrows: true,
     hideSingleArrow: true,
-    itemsCount: list.length,
+    itemsCount: this.props.polish.length,
     selected: "item1",
     translate: 0,
     transition: 0.3,
@@ -55,7 +62,7 @@ class ItemScroll extends Component {
   constructor(props) {
     super(props);
     this.menu = null;
-    this.menuItems = Menu(list.slice(0, list.length), this.state.selected);
+    this.menuItems = Menu(this.props.polish.slice(0, this.props.polish.length), this.state.selected);
   }
 
   onUpdate = ({ translate }) => {
@@ -77,16 +84,16 @@ class ItemScroll extends Component {
   }
 
   setItemsCount = ev => {
-    const { itemsCount = list.length, selected } = this.state;
+    const { itemsCount = this.props.polish.length, selected } = this.state;
     const val = +ev.target.value;
     const itemsCountNew =
-      !isNaN(val) && val <= list.length && val >= 0
+      !isNaN(val) && val <= this.props.polish.length && val >= 0
         ? +ev.target.value
-        : list.length;
+        : this.props.polish.length;
     const itemsCountChanged = itemsCount !== itemsCountNew;
 
     if (itemsCountChanged) {
-      this.menuItems = Menu(list.slice(0, itemsCountNew), selected);
+      this.menuItems = Menu(this.props.polish.slice(0, itemsCountNew), selected);
       this.setState({
         itemsCount: itemsCountNew
       });
@@ -140,4 +147,4 @@ class ItemScroll extends Component {
   }
 }
 
-export default ItemScroll;
+export default connect(mapStateToProps, mapDispatchToProps)(ItemScroll);*/
