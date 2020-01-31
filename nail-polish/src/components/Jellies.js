@@ -30,7 +30,12 @@ const Jellies = props => {
           <BreadcrumbItem active>JELLIES</BreadcrumbItem>
         </Breadcrumb>
       </div>
-      <h3 className="center">JELLIES</h3>
+      <div className="row justify-content-center">
+      <h3 style={{letterSpacing: 4}}>JELLIES</h3>
+      <h3 style={{color: 'grey'}}>&nbsp;{props.polish.filter((p) =>
+      p.jelly === true
+    ).length}</h3>
+      </div>
       <div className="col">
         <Sort />
         <div className="row">

@@ -70,7 +70,10 @@ class GiftCards extends Component {
             <BreadcrumbItem active>GIFT CARDS</BreadcrumbItem>
           </Breadcrumb>
         </div>
-        <h3 className="center">GIFT CARDS</h3>
+        <div className="row justify-content-center">
+      <h3 style={{letterSpacing: 4}}>GIFT CARDS</h3>
+      <h3 style={{color: 'grey'}}>&nbsp;{giftcards.length}</h3>
+      </div>
         <div className="col">
         <Sort />
         <div className="row">

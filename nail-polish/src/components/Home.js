@@ -98,6 +98,10 @@ const Home = () => {
       <h2>TRANQUILITY - SPRING 2019</h2>
       <hr />
       </div>
+      <div className="my-5">
+      <h2>NEW YEAR'S COLLECTION - WINTER 2016</h2>
+      <hr />
+      </div>
     </div>
   );
 }

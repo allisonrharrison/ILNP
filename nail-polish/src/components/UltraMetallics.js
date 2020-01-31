@@ -30,7 +30,12 @@ const UltraMetallics = props => {
           <BreadcrumbItem active>ULTRA METALLICS</BreadcrumbItem>
         </Breadcrumb>
       </div>
-      <h3 className="center">ULTRA METALLICS</h3>
+      <div className="row justify-content-center">
+      <h3 style={{letterSpacing: 4}}>ULTRA METALLICS</h3>
+      <h3 style={{color: 'grey'}}>&nbsp;{props.polish.filter((p) =>
+      p.ultrametallic === true
+    ).length}</h3>
+      </div>
       <div className="col">
         <Sort />
         <div className="row">

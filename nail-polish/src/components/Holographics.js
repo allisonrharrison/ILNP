@@ -30,7 +30,10 @@ const Holographics = props => {
           <BreadcrumbItem active>HOLOGRAPHICS</BreadcrumbItem>
         </Breadcrumb>
       </div>
-      <h3 className="center">HOLOGRAPHICS</h3>
+      <div className="row justify-content-center">
+      <h3 style={{letterSpacing: 4}}>HOLOGRAPHICS</h3>
+      <h3 style={{color: 'grey'}}>&nbsp;{props.polish.filter((p) => p.holographic == true).length}</h3>
+      </div>
       <div className="col">
         <Sort />
         <div className="row">

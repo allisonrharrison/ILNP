@@ -30,7 +30,12 @@ const Shimmers = props => {
           <BreadcrumbItem active>SHIMMERS</BreadcrumbItem>
         </Breadcrumb>
       </div>
-      <h3 className="center">SHIMMERS</h3>
+      <div className="row justify-content-center">
+      <h3 style={{letterSpacing: 4}}>SHIMMERS</h3>
+      <h3 style={{color: 'grey'}}>&nbsp;{props.polish.filter((p) =>
+      p.shimmer === true
+    ).length}</h3>
+      </div>
       <div className="col">
         <Sort />
         <div className="row">

@@ -30,7 +30,10 @@ const AllPolish = props => {
           <BreadcrumbItem active>ALL ILNP NAIL POLISH</BreadcrumbItem>
         </Breadcrumb>
       </div>
-      <h3 className="center">ALL ILNP NAIL POLISH</h3>
+      <div className="row justify-content-center">
+      <h3 style={{letterSpacing: 4}}>ALL ILNP NAIL POLISH</h3>
+      <h3 style={{color: 'grey'}}>&nbsp;{props.polish.length}</h3>
+      </div>
       <div className="col">
         <Sort />
         <div className="row">
