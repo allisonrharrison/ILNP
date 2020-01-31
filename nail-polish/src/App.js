@@ -27,7 +27,7 @@ function App() {
           <Header />
           <NavBar />
           <Switch>
-            <Route exact path="/ilnp">
+            <Route exact path="/ILNP">
               <Home />
             </Route>
             <Route path="/allpolish">

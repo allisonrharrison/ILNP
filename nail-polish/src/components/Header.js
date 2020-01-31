@@ -40,7 +40,7 @@ const Header = props => {
 
         <div className="col-4">
           <div className="col-4 offset-4">
-            <NavLink to="/ilnp" className="link">
+            <NavLink to="/ILNP" className="link">
               <div className="row">
                 <h1>ILNP</h1>
               </div>
