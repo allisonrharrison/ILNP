@@ -22,39 +22,39 @@ const store = ConfigureStore();
 function App() {
   return (
     <Provider store={store}>
-    <BrowserRouter>
-      <div className="App">
-        <Header />
-        <NavBar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/allpolish">
-            <AllPolish />
-          </Route>
-          <Route path="/holographics">
-            <Holographics />
-          </Route>
-          <Route path="/ultrachromes">
-            <UltraChromes />
-          </Route>
-          <Route path="/ultrametallics">
-            <UltraMetallics />
-          </Route>
-          <Route path="/jellies">
-            <Jellies />
-          </Route>
-          <Route path="/shimmers">
-            <Shimmers />
-          </Route>
-          <Route path="/giftcards">
-            <GiftCards />
-          </Route>
-        </Switch>
-        <Footer />
-      </div>
-    </BrowserRouter>
+      <BrowserRouter>
+        <div className="App">
+          <Header />
+          <NavBar />
+          <Switch>
+            <Route exact path="/ilnp">
+              <Home />
+            </Route>
+            <Route path="/allpolish">
+              <AllPolish />
+            </Route>
+            <Route path="/holographics">
+              <Holographics />
+            </Route>
+            <Route path="/ultrachromes">
+              <UltraChromes />
+            </Route>
+            <Route path="/ultrametallics">
+              <UltraMetallics />
+            </Route>
+            <Route path="/jellies">
+              <Jellies />
+            </Route>
+            <Route path="/shimmers">
+              <Shimmers />
+            </Route>
+            <Route path="/giftcards">
+              <GiftCards />
+            </Route>
+          </Switch>
+          <Footer />
+        </div>
+      </BrowserRouter>
     </Provider>
   );
 }
