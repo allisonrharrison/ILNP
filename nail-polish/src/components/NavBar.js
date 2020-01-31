@@ -28,7 +28,7 @@ class NavBar extends Component {
           <Navbar expand="lg">
             <Nav className="justify-content border-bottom pb-3 mb-0" navbar>
               <NavItem className="pr-4 py-1">
-                <Link to="/">HOME</Link>
+                <Link to="/ilnp">HOME</Link>
               </NavItem>
               <NavItem className="px-4 py-1">
                 <Link to="/allpolish">ALL NAIL POLISH</Link>
