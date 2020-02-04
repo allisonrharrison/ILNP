@@ -36,7 +36,7 @@ class NavBar extends Component {
               <NavItem
                 id="1"
                 className="px-4 py-1"
-                onMouseEnter={this.handleMouseHover}
+                
               >
                 <Link to="/holographics">
                   HOLOGRAPHICS{" "}
@@ -46,7 +46,7 @@ class NavBar extends Component {
               <NavItem
                 id="2"
                 className="px-4 py-1"
-                onMouseEnter={this.handleMouseHover}
+                
               >
                 <Link to="/ultrachromes">
                   ULTRA CHROMES{" "}
@@ -56,7 +56,7 @@ class NavBar extends Component {
               <NavItem
                 id="3"
                 className="px-4 py-1"
-                onMouseEnter={this.handleMouseHover}
+                
               >
                 <Link to="/ultrametallics">
                   ULTRA METALLICS{" "}
@@ -66,7 +66,7 @@ class NavBar extends Component {
               <NavItem
                 id="4"
                 className="px-4 py-1"
-                onMouseEnter={this.handleMouseHover}
+                
               >
                 <Link to="/jellies">
                   JELLIES <i className="fas fa-chevron-down fa-xs fa-fw"></i>
@@ -75,7 +75,7 @@ class NavBar extends Component {
               <NavItem
                 id="5"
                 className="px-4 py-1"
-                onMouseEnter={this.handleMouseHover}
+                
               >
                 <Link to="/shimmers">
                   SHIMMERS &nbsp;<i className="fas fa-chevron-down fa-xs"></i>
@@ -84,7 +84,7 @@ class NavBar extends Component {
               <NavItem
                 id="6"
                 className="px-4 py-1"
-                onMouseEnter={this.handleMouseHover}
+                
               >
                 <Link to="/giftcards">GIFT CARDS</Link>
               </NavItem>
@@ -106,20 +106,12 @@ class NavBar extends Component {
             </Nav>
           </Navbar>
         </div>
-        {this.state.isHovering && (
-          <div
-            className="container col-12 dropDiv"
-            onMouseLeave={this.handleMouseHover}
-          >
-            <DropNav />
-          </div>
-        )}
       </div>
     );
   }
 }
 
-const DropNav = () => {
+/*const DropNav = () => {
   return (
     <div className="row">
       <div className="col-6 d-flex align-self-center justify-content-center">
@@ -139,6 +131,6 @@ const DropNav = () => {
       </div>
     </div>
   );
-};
+};*/
 
 export default NavBar;
