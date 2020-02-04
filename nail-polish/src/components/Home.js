@@ -6,7 +6,24 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+import { addToCart } from "../redux/ActionCreators";
 import ItemScroll from "./ItemScroll";
+
+const mapStateToProps = state => {
+  return {
+    polish: state.polish,
+    giftcards: state.giftcards
+  };
+};
+const mapDispatchToProps = dispatch => {
+  return {
+    addToCart: id => {
+      dispatch(addToCart(id));
+    }
+  };
+};
 
 const items = [
   {
@@ -58,7 +75,7 @@ const Home = () => {
   });
 
   return (
-    <div className="container col-12 mb-5">
+    <div className="container col-12">
     <Carousel
       activeIndex={activeIndex}
       next={next}
@@ -69,41 +86,33 @@ const Home = () => {
       <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
-    <div className="my-5">
+    <div className="coll-row">
       <h2>SNOWED IN COLLECTION - WINTER 2019</h2>
       <hr />
-      
+      <ItemScroll collection="snowedin"/>
       </div>
-      <div className="my-5">
+      <div className="coll-row">
       <h2>MONARCHY COLLECTION - FALL 2019</h2>
       <hr />
+      <ItemScroll collection="monarchy"/>
       </div>
-      <div className="my-5">
+      <div className="coll-row">
       <h2>NINE TO FIVE COLLECTION - FALL 2019</h2>
       <hr />
+      <ItemScroll collection="ninetofive"/>
       </div>
-      <div className="my-5">
+      <div className="coll-row">
       <h2>SUMMER FEELS - SUMMER 2019</h2>
       <hr />
+      <ItemScroll collection="summerfeels"/>
       </div>
-      <div className="my-5">
-      <h2>THE BOARDWALK COLLECTION - SUMMER 2019</h2>
-      <hr />
-      </div>
-      <div className="my-5">
-      <h2>SUGAR LUSH - SPRING 2019</h2>
-      <hr />
-      </div>
-      <div className="my-5">
-      <h2>TRANQUILITY - SPRING 2019</h2>
-      <hr />
-      </div>
-      <div className="my-5">
+      <div className="coll-row">
       <h2>NEW YEAR'S COLLECTION - WINTER 2016</h2>
       <hr />
+      <ItemScroll collection="newyears2016"/>
       </div>
     </div>
   );
 }
 
-export default Home;
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

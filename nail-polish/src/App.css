@@ -78,15 +78,6 @@ h2 {
   border: 1px transparent solid;
 }
 
-.scroll-menu-arrow {
-  padding: 20px;
-  cursor: pointer;
-}
-
-.scroll-menu-arrow--disabled {
-  visibility: hidden;
-}
-
 #account:hover {
   cursor: pointer;
 }
@@ -114,4 +105,39 @@ i:hover {
 
 .dropDiv h2 {
   letter-spacing: 4px;
+}
+
+.left {
+  display: flex;
+  height: auto;
+}
+
+.internal {
+  width: 31.75%;
+  height: auto;
+  display: inline-block;
+}
+
+.center {
+  height: auto;
+  width: 90%;
+  margin: 1px;
+  overflow: hidden;
+  /*will change this to hidden later to deny scolling to user*/
+  white-space: nowrap;
+}
+
+.right {
+  display: flex;
+  height: auto;
+}
+
+.scroll-button {
+  border: none;
+  background-color: #ffffff;
+}
+
+.coll-row {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
