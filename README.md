@@ -1,17 +1,17 @@
+![ILNP 2.0 Site Screenshot](https://i.imgur.com/6XmsD0M.png)
+
 # ILNP
-Great nail polish, bad user experience. Can I do it better?
 
-##### Tuesday, December 24th
-Merry Christmas Eve -- Phase Negative One is complete! I completely reworked the foundation: fixed store, mapped components, cleaned up/organized files, and more. I am much more pleased with the current state of this project, so I think it is time to finally start working on more functional aspects of the site, such as Cart and Sort.
+### Great Nail Polish, Bad User Experience. Can I do it better?
 
-##### Saturday, December 14th
-It's been about one month since I've done any major updates to this project. I've been focused on getting through my React Native course... but as graduation approaches, so does the deadline for releasing v1.0. Looking at my code, I get the same feeling as you would upon discovering that your entire house needs an electrical re-wiring. I see now that it was a mistake to build the visual elements around the functionality, instead of the other way around. To put this project in a releasable/presentable state, I'm going to have to take a few steps back. Entering Phase Negative One: re-working the foundation!
 
-##### Wednesday, November 20th
-I've officially completed my React course! Let's continue putting my skills to the test with this project. I added two nail polish collections (Snowed In, Monarchy) plus gift cards to the store, then separated them into their own pages. Going to add a few more collections, then attempt to render everything on the Home page using react-horizontal-scrolling-menu. 
+#### About
+I love nail polish, and ILNP has been one of my favorite brands for a while now. I was browsing their website trying to shop, and was actually getting frustrated with how sluggish the whole process was! At that time, I was only a couple weeks into my React course and this poor user experience is what finally made it all click for me. I realized that this exact website could be entirely re-built in React and function one million times faster! Lo and behold, after some tinkering, I was correct. This project absolutely made me fall in love with React.
 
-##### Monday, November 11th
-The foundation is set! Header, NavBar, Body, and Footer are all in place and looking acceptable for now. Entering Phase Two: implementing Redux and adding products. 
+#### Features
+This site utilises React, Redux, Reactstrap, and FontAwesome. It features favorite and cart functionality, and is my most ambitious project as of this writing.
 
-##### Sunday, November 10th
-Today marks the first day of my attempt at overhauling a crappy website. I love ILNP, but I was shopping on there the other day and thought, "*Dang this website sucks.*" Coincidentally, I have been learning React over the past few weeks and need to come up with a project to showcase my skills! If I can pull this off, I think it will be a nice addition to my portfolio. Here goes!
+#### What I Learned
+* I struggled to understand React for a few weeks, and attempting to learn it was actually discouraging at first. In the beginning, working on this project felt like one of those Escape Room challenges; being stuck in a room and digging around for clues until you find something that works, then moving onto the next room, etc. I saw a feature I wanted to implement, and I experimented until I figured out how. Eventually, I had a working app and was actually very proud of what I'd accomplished.
+
+* Originally, I had built this app without Redux and my data was all over the place! I reached a point where I could no longer progress because my foundation was so shoddy. I took it upon myself to read over Redux docs to figure out how to properly set up a Store and access that data from anywhere in my project, and after a complete project overhaul, I was successful.
